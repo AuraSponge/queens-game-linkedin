@@ -1,0 +1,33 @@
+import {
+  anakiwa,
+  bittersweet,
+  celadon,
+  chardonnay,
+  lightOrchid,
+  lightWisteria,
+  saharaSand,
+} from "../colors";
+
+const level1 = {
+  size: 7,
+  colorRegions: [
+    ["A", "A", "A", "A", "A", "E", "F"],
+    ["B", "B", "B", "E", "A", "E", "F"],
+    ["B", "B", "B", "E", "E", "E", "F"],
+    ["G", "G", "G", "G", "D", "F", "F"],
+    ["C", "D", "G", "G", "D", "F", "F"],
+    ["C", "D", "D", "D", "D", "F", "F"],
+    ["C", "C", "C", "C", "C", "C", "C"],
+  ],
+  regionColors: {
+    A: lightWisteria,
+    B: chardonnay,
+    C: anakiwa,
+    D: celadon,
+    E: lightOrchid,
+    F: bittersweet,
+    G: saharaSand,
+  },
+};
+
+export default level1;
